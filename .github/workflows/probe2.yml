@@ -1,0 +1,4 @@
+name: probe2
+on: [workflow_dispatch, push]
+jobs:/n  hi:/n    runs-on: ubuntu-latest
+    steps:/n      - run: echo hello from probe2
